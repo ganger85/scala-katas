@@ -40,7 +40,7 @@ class DiamondSpec extends FlatSpec with Matchers {
   }
   it should "return 7 lines with D as input" in {
     val expected = 7
-    val result = Diamond.build('G')
+    val result = Diamond.build('D')
 
     println(result.mkString("\n"))
     result.size should be(expected)
